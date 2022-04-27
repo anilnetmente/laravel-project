@@ -4,13 +4,6 @@ on:
   push:
     branches: [ main ]
 
-stages:
-  - deploy
-
-deploy:
-  stage: deploy
-
-
 jobs:
   laravel-tests:
     runs-on: self-hosted
